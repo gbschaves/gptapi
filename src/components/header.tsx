@@ -1,6 +1,6 @@
 // components/Header.tsx
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from '@/components/navbar';
 import { Home } from '@mui/icons-material';
 
 const Header: React.FC = () => {
