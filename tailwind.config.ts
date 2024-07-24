@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         customDarkGrey: '#1e262b',
+        customDefaultGrey: '#2b343a',
+        customOrange: '#ff9c0a'
       },
     },
   },

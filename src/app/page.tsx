@@ -1,8 +1,16 @@
-import Navbar from "@/components/navbar";
-import Image from "next/image";
+// app/page.tsx
+import React from 'react';
+import Header from '../components/Header';
+import "@/styles/globals.css";
 
-export default function Home() {
+const HomePage: React.FC = () => {
   return (
-    <Navbar></Navbar>
+    <div className="min-h-screen bg-gray-100">
+      <main className="container mx-auto p-4">
+
+      </main>
+    </div>
   );
-}
+};
+
+export default HomePage;
